@@ -24,6 +24,7 @@ app.Libreria = Backbone.View.extend({
 			"autor": $('#inputAutor').val(),
 			"categoria": $('#inputCategoria').val()
 		});
+		$('input').val('');
 	},
 
 	resetLibro: function(){

@@ -11,8 +11,10 @@ var datos = JSON.parse(baseDeDatos);
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Add POST, PUT, DELETE methods to the app
+// https://github.com/senchalabs/connect/wiki/Connect-3.0
 app.use(express.urlencoded());
 app.use(express.json());
+
 app.use(express.cookieParser());
 app.use(express.methodOverride());
 
