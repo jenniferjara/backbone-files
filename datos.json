@@ -22,5 +22,17 @@
     "titulo": "Los heraldos negros",
     "autor": "Cesar Vallejo",
     "categoria": "Poesia"
+  },
+  {
+    "id": "5",
+    "titulo": "El mundo de Sofía",
+    "autor": "Jostein Gaarder",
+    "categoria": "Ficción"
+  },
+  {
+    "id": "6",
+    "titulo": "La sangre de los libros",
+    "autor": "Santiago Posteguillo",
+    "categoria": "Historia"
   }
 ]
