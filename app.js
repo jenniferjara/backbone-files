@@ -11,13 +11,14 @@ var datos = JSON.parse(baseDeDatos);
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Add POST, PUT, DELETE methods to the app
-app.use(express.bodyParser());
+app.use(express.urlencoded());
+app.use(express.json());
 app.use(express.cookieParser());
 app.use(express.methodOverride());
 
 // Pagina de Inicio: http:localhost:4000
 app.get('/', function (req,res){
-	res.sendfile(__dirname + '/index.html');
+	res.sendfile(__dirname + '/views/index.html');
 });
 
 // API REST
