@@ -1,4 +1,4 @@
-##Backbone js
+Backbone js
 ---
 
 Descargar dependencias ==> npm install
