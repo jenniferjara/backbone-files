@@ -91,4 +91,6 @@ app.delete('/libros/:id', function (req,res) {
 	
 });
 
-app.listen(4000);
+app.listen(4000, function(){
+	console.log('==> localhost:4000 <==')
+});
